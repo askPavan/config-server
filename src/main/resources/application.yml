@@ -1,0 +1,17 @@
+logging:
+  file:
+    name: config-server.logs
+    path: logs/
+server:
+  port: 8888
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/askPavan/global-configurations.git
+          refresh-rate: 60
+#  security:
+#    user:
+#      name: 
+#      password:
