@@ -10,8 +10,8 @@ spring:
       server:
         git:
           uri: https://github.com/askPavan/global-configurations.git
-          refresh-rate: 60
-#  security:
-#    user:
-#      name: 
-#      password:
+          refresh-rate: 120
+  security:
+    user:
+      name: admin 
+      password: welcome
